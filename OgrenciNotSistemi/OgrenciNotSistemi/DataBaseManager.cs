@@ -41,8 +41,8 @@ namespace OgrenciNotSistemi
     internal class DataBaseManager
     {
         static string databasePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database4.mdb");
-
         string connectionString = $@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source= {databasePath}";
+        
         public DataTable GetStudent(string studentUserName)
         {
             using (OleDbConnection connection = new OleDbConnection(connectionString))

@@ -19,7 +19,6 @@ namespace OgrenciNotSistemi
     {
         //Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\bin\Debug\Database4.mdb
 
-        string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\bin\\Debug\\Database4.mdb";
        
 
         public static string userName, password;

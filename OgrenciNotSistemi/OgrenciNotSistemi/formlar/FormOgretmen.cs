@@ -21,8 +21,6 @@ namespace OgrenciNotSistemi.formlar
     {
         int ogrenciID, teacherID;
         string teacherName, teacherSurname, teacherNick, teacherPassword;
-        string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Database4.mdb";
-
 
         public FormOgretmen()
         {
